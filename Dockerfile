@@ -1,5 +1,4 @@
-FROM nginx
-MAINTAINER Di Wu <diwu@yelp.com>
+FROM nginx:1.23
 
 COPY nginx.conf /etc/nginx/nginx.conf
 
